@@ -20,6 +20,7 @@ class _SignupscreenState extends State<Signupscreen> {
 
   bool _isHidden=true;
 
+
   String? _validateName(String? value) {
     if (value == null || value.isEmpty) {
       return 'Please enter your name';
@@ -45,7 +46,6 @@ class _SignupscreenState extends State<Signupscreen> {
     }
     return null;
   }
-
   String? _validatePassword(String? value) {
     if (value == null || value.isEmpty) {
       return 'Please enter your password';
